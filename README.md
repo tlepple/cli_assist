@@ -68,6 +68,22 @@ cd /app/cli_assist
 . provider/aws/aws_setup.sh
 
 ```
+
+
+---
+# Test that it is working for cli items
+
+```
+# python
+python --version
+
+# aws
+aws --version
+
+# CDP
+cdp --version
+```
+
 ---
 
 # Usefull docker command reference:
