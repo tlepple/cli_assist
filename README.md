@@ -75,7 +75,7 @@ cd /app/cli_assist
 
 ```
 # python
-python --version
+python3.7 --version
 
 # aws
 aws --version
