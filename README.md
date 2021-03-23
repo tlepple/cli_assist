@@ -50,7 +50,7 @@ docker volume ls
 yum install -y git
 cd /app
 git clone https://github.com/tlepple/cli_assist.git
-cd /app/horizon-public
+cd /app/cli_assist
 ```
 
 ---
