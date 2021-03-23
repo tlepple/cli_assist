@@ -58,6 +58,16 @@ cd /app/cli_assist
 
 
 ---
+
+# Install cli tool into this docker container
+
+```
+cd /app/cli_assist
+
+# run the build
+. provider/aws/aws_setup.sh
+
+```
 ---
 
 # Usefull docker command reference:
