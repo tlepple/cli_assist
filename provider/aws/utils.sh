@@ -172,8 +172,7 @@ install_cdpcli() {
 		deactivate 
 
 		# add to PATH in .bash_profile
-		echo "export CDPCLI_HOME=/app/cli_assist/provider/aws/cloudera/cdpclienv/env" >> ~/.bash_profile
-		echo "PATH=$PATH:$HOME/bin:/usr/local/bin:$CDPCLI_HOME/bin" >> ~/.bash_profile
+		echo "PATH=$PATH:/app/cli_assist/provider/aws/cloudera/cdpclienv/env/bin" >> ~/.bash_profile
 		echo " " >> ~/.bash_profile
 		echo "export PATH" >> ~/.bash_profile
 		
