@@ -34,3 +34,6 @@ install_python37
 install_cdpcli
 
 
+# return to start directory
+cd $starting_dir
+
