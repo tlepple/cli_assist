@@ -171,6 +171,14 @@ install_cdpcli() {
 		# deactive the venv
 		deactivate 
 
+		# add to PATH in .bash_profile
+		echo "export CDPCLI_HOME=/app/cli_assist/provider/aws/cloudera/cdpclienv/env" >> ~/.bash_profile
+		echo "PATH=$PATH:$HOME/bin:/usr/local/bin:$CDPCLI_HOME/bin" >> ~/.bash_profile
+		echo " " >> ~/.bash_profile
+		echo "export PATH" >> ~/.bash_profile
+		
+		#  re-initialize the .bash_profile
+		. ~/.bash_profile
 	else
 		log "cdpcli already installed.  Skipping"
 	fi
