@@ -178,6 +178,9 @@ install_cdpcli() {
 		
 		#  re-initialize the .bash_profile
 		. ~/.bash_profile
+		
+		# install ruby
+		yum install -y ruby
 	else
 		log "cdpcli already installed.  Skipping"
 	fi
